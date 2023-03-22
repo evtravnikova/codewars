@@ -20,7 +20,7 @@ console.log('ddk4', '123')
 console.log(repeatStr(5, 'o'))*/
 
 
-function countSheeps(arrayOfSheep) {
+/*function countSheeps(arrayOfSheep) {
   let count = 0;
   arrayOfSheep.forEach(sheep => {
     if (sheep === true) {
@@ -35,4 +35,12 @@ console.log(countSheeps([true, true, true, false,
   true, false, true, false,
   true, false, false, true,
   true, true, true, true,
-  false, false, true, true]))
+  false, false, true, true]))*/
+
+
+
+function describeAge(age) {
+return "You're a(n) " + (age < 13 ? "kid" : age < 18 ? "teenager" : age < 65 ? "adult" : "elderly")
+}
+
+console.log(describeAge(89))
