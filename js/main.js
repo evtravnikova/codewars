@@ -13,8 +13,26 @@ function joinStrings(string1, string2){
 console.log('ddk4', '123')
 */
 
-function repeatStr (n, s) {
+/*function repeatStr (n, s) {
   return s.repeat(n);
 }
 
-console.log(repeatStr(5, 'o'))
+console.log(repeatStr(5, 'o'))*/
+
+
+function countSheeps(arrayOfSheep) {
+  let count = 0;
+  arrayOfSheep.forEach(sheep => {
+    if (sheep === true) {
+      count++
+    }
+  })
+  return count
+}
+
+console.log(countSheeps([true, true, true, false,
+  true, null, undefined, true,
+  true, false, true, false,
+  true, false, false, true,
+  true, true, true, true,
+  false, false, true, true]))
