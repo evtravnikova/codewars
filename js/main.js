@@ -1,4 +1,12 @@
-function noSpace(x){
-  return x.replace(/ /gm, '')
+/*function joinStrings(string1, string2){
+  return string1.toString() + " " +  string2.toString();
 }
-console.log(noSpace('d d d dddd d'))
+
+console.log('ddk4', '123')*/
+
+
+function joinStrings(string1, string2){
+  return `${string1.toString()} ${string2.toString()}`;
+}
+
+console.log('ddk4', '123')
